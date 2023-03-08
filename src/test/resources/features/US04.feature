@@ -1,7 +1,7 @@
 @regression
 Feature: Vehicle contracts functionality
   Agile story: As a user, I want to access to Vehicle contracts page
-
+@smoke
   Scenario: Store manager can access the vehicle contracts page
     Given user is on login page
     And user login as "store manager"

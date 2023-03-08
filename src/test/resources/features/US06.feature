@@ -2,7 +2,7 @@
 Feature: Vehicles Functionality
   Agile story: As a user, I want to see edit car info icons form the Vehicle page
 
-  @US06 #@smoke
+  @US06
   Scenario: user should see view edit delete when they hover over the mouse over the 3 dots
     Given user is on login page
     And user login as "driver"

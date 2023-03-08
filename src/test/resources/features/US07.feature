@@ -9,7 +9,7 @@ Feature: Fleet Vehicle Functionality
     And user click "Vehicles" in the sub menu
     And user see all checkboxes are unchecked
 
-  @US07 #@smoke
+  @US07
   Scenario: Verify when you check the first checkbox, all the checkboxes should be unchecked.
     Given user is on login page
     Given user login as "store manager"

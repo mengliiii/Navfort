@@ -2,7 +2,7 @@
 Feature: Navfort logout functionality
   Agile Story:As a driver, I should be able to log out
 
-  @US15
+  @smoke
   Scenario: Log out as a driver and verify url
     Given user is on login page
     Given user login as "driver"

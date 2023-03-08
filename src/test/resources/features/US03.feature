@@ -2,7 +2,7 @@
 Feature: Pinbar Functionality
   Agile story: As a user, I want to  learn how to use the pinbar
 
-  @US03@smoke
+  @US03
   Scenario Outline: When user click "Learn how to use this space" link on the homepage user see info
     Given user is on login page
     And user login as "<user>"
