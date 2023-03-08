@@ -2,7 +2,7 @@
 Feature: Vehicle Model
   Agile story: As a user, I want to view columns on the Vehicle model page (web-table)
 
-  @smoke
+  #@smoke
   Scenario Outline: store manager should see 10 columns on the Vehicle Model Page
     Given user is on login page
     And user login as "<user>"

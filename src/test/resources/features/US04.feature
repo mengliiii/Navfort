@@ -15,7 +15,7 @@ Feature: Vehicle contracts functionality
     Then user click "Fleet" in the  main menu
     And user click "Vehicle Contracts" in the sub menu
     And user see title is "All - Vehicle Contract - Entities - System - Car - Entities - System"
-  @US04@smoke
+  @US04
   Scenario: driver can not access the vehicle contracts page
     Given user is on login page
     And user login as "driver"

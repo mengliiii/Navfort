@@ -2,7 +2,7 @@
 Feature: Home page
   Agile story: As a user, I should be accessing all main modules of the app
 
-  @US01@smoke
+  @US01 @smoke
   Scenario Outline: Store and sales manager should see 8 modules
     Given user is on login page
     And user login as "<user>"
